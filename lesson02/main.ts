@@ -41,55 +41,55 @@ myLiteral = 'success';
 console.log(myLiteral);
 
 
-// type
-type Person = {
-  id: number,
-  name: string,
-  gender?: boolean
-}
+// // type
+// type Person11 = {
+//   id: number,
+//   name: string,
+//   gender?: boolean
+// }
 
-let person1: Person = {
-  id: 1,
-  name: "dung",
-  gender: true
-}
+// let person1: Person = {
+//   id: 1,
+//   name: "dung",
+//   gender: true
+// }
 
-let person2: Person = {
-  id: 2,
-  name: "tran van a",
-  // gender: false
-}
+// let person2: Person = {
+//   id: 2,
+//   name: "tran van a",
+//   // gender: false
+// }
 
-type Student = Person & {
-  major: string
-}
+// type Student = Person & {
+//   major: string
+// }
 
-let student1: Student = {
-  id: 3,
-  name: "tran thi b",
-  gender: false,
-  major: "marketing"
-}
+// let student1: Student = {
+//   id: 3,
+//   name: "tran thi b",
+//   gender: false,
+//   major: "marketing"
+// }
 
-// interface
+// // interface
 
-interface IPerson {
-  id: number,
-  name: string,
-  gender?: boolean
-}
+// interface IPerson {
+//   id: number,
+//   name: string,
+//   gender?: boolean
+// }
 
-let person3: IPerson = {
-  id: 4,
-  name: "Tran manh A",
-  gender: true
-}
+// let person3: IPerson = {
+//   id: 4,
+//   name: "Tran manh A",
+//   gender: true
+// }
 
-// IStudent kế thừa IPerson
-interface IStudent1 extends IPerson {
-  major: string,
-  GPA: number
-}
+// // IStudent kế thừa IPerson
+// interface IStudent1 extends IPerson {
+//   major: string,
+//   GPA: number
+// }
 
 // let student3: IStudent = {
 //   id: 5,
